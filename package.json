@@ -1,14 +1,16 @@
+
 {
   "name": "pet-chip",
   "private": true,
   "scripts": {
     "build": "turbo run build",
+    "test": "turbo run test",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types",
     "docker:up": "docker-compose up -d",
-    "docker:down": "docker-compose down",
+    dockerr:down": "docker-compose down",
     "docker:logs": "docker-compose logs -f",
     "docker:reset": "docker-compose down -v && docker-compose up -d",
     "docker:ps": "docker-compose ps",
@@ -23,8 +25,8 @@
   "engines": {
     "node": ">=18"
   },
-  "workspaces": [
+  workspacess": [
     "apps/*",
     "packages/*"
   ]
-}
+    }
