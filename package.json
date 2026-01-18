@@ -10,7 +10,6 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types",
     "docker:up": "docker-compose up -d",
-    dockerr:down": "docker-compose down",
     "docker:logs": "docker-compose logs -f",
     "docker:reset": "docker-compose down -v && docker-compose up -d",
     "docker:ps": "docker-compose ps",
@@ -29,4 +28,5 @@
     "apps/*",
     "packages/*"
   ]
+}
     }
