@@ -1,8 +1,10 @@
+
 {
   "name": "pet-chip",
   "private": true,
   "scripts": {
     "build": "turbo run build",
+    "test": "turbo run test",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
@@ -22,8 +24,9 @@
   "engines": {
     "node": ">=18"
   },
-  "workspaces": [
+  workspacess": [
     "apps/*",
     "packages/*"
   ]
 }
+    }
